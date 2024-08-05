@@ -141,7 +141,7 @@ This plan text is combination of instruction in a particular sequence. The compi
 C language has a lot of valuable library function which is used to carry out certain tasks. For instance printf() function is used to print values on the screen.
 
 ```bash
-#include <stdio.h>
+#include<stdio.h>
 
 int main()
 {
