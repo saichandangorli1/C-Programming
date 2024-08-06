@@ -154,11 +154,11 @@ The answer to above questions is provided by operatoe precedence & associativity
 
 The following table lists the operator priority in C
 
-|Priority| ---- |Operators|
-| ------ | ---- | ------- |
-| 1st    | ---- | \* / %  |
-| 2nd    | ---- | + -     |
-| 3rd    | ---- | =       |
+|Priority|Operators|
+| ------ | ------- |
+| 1st    | \* / %  |
+| 2nd    | + -     |
+| 3rd    | =       |
 
 
 Operators of higher priority are evaluated first in the absence of parenthesis.
