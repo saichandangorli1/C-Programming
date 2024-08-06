@@ -1,6 +1,7 @@
 # CHAPTER 1 : VARIABLES, CONSTANTS & KEYWORDS
 
 - [VARIABLES](#variables)
+- [DATA TYPES AND SIZEOF](#data-types-and-sizeof)
 - [RULES FOR NAMING VARIABLES IN C](#rules-for-naming-variables-in-c)
 - [CONSTANTS](#constants)
 - [TYPES OF CONSTANTS](#types-of-constants)
@@ -24,6 +25,26 @@ a = 3; // a is assigned "3"
 b = 4.7; // b is assigned "4.7"
 c = 'A'; // c is assigned 'A'
 ```
+
+## DATA TYPES AND SIZEOF
+
+1. int &rarr; 4 byte (32 bits)
+
+2. char &rarr; 1 byte (8 bits)
+
+3. short &rarr; 2 byte (16 bits)
+
+4. long &rarr; 4 byte (32 bits)
+
+5. float &rarr; 4 byte (32 bits)
+
+6. double &rarr; 8 byte (64 bits)
+
+7. long long &rarr; 8 byte (64 bits)
+
+8. long double &rarr; 8 byte (64 bits) or 12 or 16 bytes **depending on compiler and platform**
+
+9. Bool &rarr; 1 byte (8 bits)
 
 ## RULES FOR NAMING VARIABLES IN C
 
