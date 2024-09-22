@@ -1,3 +1,5 @@
+# C PROGRAMMING HANDBOOK BY SAICHANDAN GORLI
+
 # CHAPTER 2 : INSTRUCTIONS AND OPERATIONS
 
 A C program is a set of instructions. Just like a recipe which contains instructions to prepare a particular dish

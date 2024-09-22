@@ -1,3 +1,5 @@
+# C PROGRAMMING HANDBOOK BY SAICHANDAN GORLI
+
 # CHAPTER 3 : CONDITIONAL INSTRUCTIONS
 
 Sometims we order junk kfood if mom is not at home.
@@ -13,6 +15,7 @@ In C language , we use be able to excute intructions on a condition
 - [ELSE-IF LADDER](#else-if-ladder)
 - [OPERATOR PRECEDENCE](#operator-precedence)
 - [TERNARY OPERATORS](#ternary-operators)
+- [SWITCH CASE CONTROL INSTRUCTION](#switch-case-control-instruction)
 
 ## DECISION MAKING INSTRUCITONS IN C
 
@@ -171,3 +174,80 @@ condition ? expression-if-true : expression-if-false
 
 
 ```
+
+## SWITCH CASE CONTROL INSTRUCTION
+
+switch-case is used when we have to make a choice between number of alternatives for given variables
+
+```bash
+
+switch (expression) {
+    case constant1:
+        // Code to execute if expression equals constant1
+        break;
+
+    case constant2:
+        // Code to execute if expression equals constant2
+        break;
+
+    // You can have any number of case statements
+
+    default:
+        // Code to execute if expression doesn't match any case
+}
+
+```
+
+The value of integer-expression is matched against constant1,constant2... If it matches any of these cases ,that case along with all subsequent "case" and "default" statements are execute.
+
+**Key Points:**
+
+- **Expression**: The value that you are evaluating (usually an integer or character).
+- **case**: Each case must have a constant expression (like an integer or character literal).
+- **break**: This statement exits the switch block. If omitted, execution will continue into the next case (fall-through).
+- **default**: This case runs if none of the specified cases match the expression.
+
+**_Example_** :
+
+```bash
+#include <stdio.h>
+
+int main() {
+    int day;
+    printf("enter the day no to know the day : ");
+    scanf("%d",&day);
+
+    switch (day) {
+        case 1:
+            printf("Monday\n");
+            break;
+        case 2:
+            printf("Tuesday\n");
+            break;
+        case 3:
+
+            printf("Wednesday\n");
+            break;
+        case 4:
+            printf("Thursday\n");
+            break;
+        case 5:
+            printf("Friday\n");
+            break;
+        default:
+            printf("Weekend\n");
+            break;
+    }
+
+    return 0;
+}
+
+```
+
+**_Some important note : _**
+
+- We can use Switch-case statements even by writing cases in any order out od our choice.
+
+- char values are allowed as they can be easily evaluated to an integer.
+
+- A switch can occur within another but in practice this is rarely done.
