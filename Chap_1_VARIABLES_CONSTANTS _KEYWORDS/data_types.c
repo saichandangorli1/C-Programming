@@ -11,6 +11,7 @@ int main()
     b = 1;
     // OR
     float b = 1; // Size of the float is usually 4 bytes(32 bits)
+    printf(a);
 
     char c;
     c = 'A';
